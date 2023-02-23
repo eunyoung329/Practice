@@ -1,0 +1,72 @@
+.area1{
+background-color: red;
+}
+.area2{
+background-color: orange;
+}
+.area3{
+background-color: yellow;
+}
+.area4{
+background-color:green;
+}
+.area5{
+background-color: blue;
+}
+.inline {
+    display : inline ;
+
+}
+.block {
+    display:block;
+    width:150px;
+    height:150px;
+}
+
+.inline-block {
+    display:inline-block;
+}
+#container-1 {
+    border:3px solid black;
+    width:350px;
+    height:472px;
+}
+#container-1 > div:first-child {
+    background-color: orange;
+    /* height:135px */
+    height:30%;
+}
+#container-1 >div:last-child{
+    background-color: blue;
+    height:70%;
+}
+#container-2  {
+border:3px solid black;
+height:440px;
+width:300px;
+}
+#container-2 > div:first-child {
+    background-color: red;
+    height:15%;
+}
+#container-2> div:nth-child(2){
+    background-color: yellow;
+    height:35%;
+}
+#container-2>div:last-child {
+    background-color: orange;
+    height:50%;
+}
+.none {
+/* 요소는 존재하나 화면 출력x */
+display:none;
+}
+.hidden {
+/* 화면에 투명한 형태 출력 */
+visibility:hidden;
+}
+.test {
+    border:1px solid black;
+    width:50px;
+    height:50px;
+}
